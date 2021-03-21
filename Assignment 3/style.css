@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: black;
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+button{
+    align-self: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px;
+    color:goldenrod;
+    background-color: black;
+    border: 5px solid goldenrod;
+    transition: all 0.5s;
+    
+
+}
+button:hover{
+transform: scale(1.2);
+transform: translateY(-25px);
+box-shadow: 5px 5px 10px greenyellow ;
+color: honeydew;
+border: 5px solid green;
+cursor: pointer;
+
+}
