@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+
+    font-family: monospace;
+    background-color: grey;
+}
+#container{
+  
+    border: 4px dashed palevioletred;
+    text-align: center;
+    width: 500px;
+    margin: 30px auto;
+    color: blanchedalmond;
+    background-color: black;
+}
+#container h1{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+#toDo{
+    color: blanchedalmond;
+    margin-top: 50px;
+}
+li{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 3px 2px wheat ;
+
+}
+ul{
+    width: 300px;
+    margin: 30px auto ;
+    list-style: none;
+}
+#addTodo{
+    background-color: palevioletred ;
+    /* font-size: 1.5rem; */
+    height:20px;
+    width: 50px;
+    outline: none;
+}
+#addTodo:hover{
+    transition: 200ms;
+    transform: scale(1.2);
+}
+.buttonstyle{
+    margin:5px;
+    padding:8px;
+    background-color: palevioletred;
+    border-radius:8px ;
+    outline: none;
+    /* transition: 200ms; */
+    /* transform: scale(1.2); */
+}
+#todoInp{
+    /* font-size: 0.5rem; */
+    border: 1px solid white;
+
+}
